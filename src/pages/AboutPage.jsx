@@ -2,14 +2,11 @@
 export default function AboutPage() {
   return (
     <div className="container pt-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+      <p className="fs-5">
+        <br></br><br></br>
+        Hi! My name is Sam and I am a student of the PennLPS Web Development Boot Camp. Other than this course I studied programming in college, and before college I have some experience as well, totalling just over 10 years of programming at an intermediate level. I took this course to get myself to the next level of programming and become a professional Web Developer.
+        <br></br><br></br>
+        I am currently 25 years old and living in University City in Philadelphia. I am a politcal activist and very active in struggles around the city. My other interests include biking, gaming, and reading.
       </p>
     </div>
   );

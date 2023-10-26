@@ -5,8 +5,8 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link to="/" className="navbar-brand">
-          Sam Steines
+        <Link to="/" className="navbar-brand fs-4">
+          Sam Steines ☭
         </Link>
         <button
           className="navbar-toggler"

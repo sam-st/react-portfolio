@@ -2,9 +2,9 @@
 const projectsData = [
     {
       id: 1,
-      name: 'Project 1',
-      description: 'Description for Project 1.',
-      githubRepo: 'https://github.com/yourusername/project1',
+      name: 'Password Generator',
+      description: '',
+      githubRepo: 'https://github.com/sam-st/pasword-generator',
     },
     {
       id: 2,

@@ -26,12 +26,13 @@ function ProjectDetailsPage() {
         </div>
         <div className="col-md-9">
           <h3>{project.name}</h3>
+          <img
+            src={project.picture}
+            alt={project.name}
+            style={{ maxWidth: '100%' }} // Set the maximum width to 100%
+          />
           <p>{project.description}</p>
-          <a
-            href={project.githubRepo}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={project.githubRepo} target="_blank" rel="noopener noreferrer">
             GitHub Repository
           </a>
         </div>

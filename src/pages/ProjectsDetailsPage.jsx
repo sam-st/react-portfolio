@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import projectsData from '../components/projectsData';
 
 function ProjectDetailsPage() {
@@ -19,8 +19,8 @@ function ProjectDetailsPage() {
           <ul className="list-group">
             {projectsData.map((p) => (
               <li key={p.id} className="list-group-item">
-                <a href={`/projects/${p.id}`}>{p.name}</a>
-              </li>
+              <Link to={`/projects/${p.id}`}>{p.name}</Link>
+            </li>
             ))}
           </ul>
         </div>

@@ -12,6 +12,8 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailsPage from './pages/ProjectsDetailsPage';
+import ContactPage from './pages/Contact';
+import ResumePage from './pages/Resume';
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: 'projects/:id', // Use a dynamic parameter for the project ID
         element: <ProjectDetailsPage />,
+      },
+      {
+        path: 'contact',
+        element: <ContactPage/>,
+      },
+      {
+        path: 'resume',
+        element: <ResumePage/>,
       },
     ],
   },
